@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', Serif;
+    list-style: none;
+    color: #E4EEF1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: #FF69B4;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    width: 700px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+    li {
+        font-size: 28px;
+    }
+}
+
+.Sobre {
+    display: flex;
+    width: 100vw;
+    height: 355px;
+    background-color: #FFD9EC;
+    justify-content: space-around;
+    align-items: center;
+    
+    p {
+        color:#000000;  
+        width: 50%;
+        font-size: 25px;
+    }  
+
+    img {
+        width: 20%; 
+        height: 40vh;
+    }
+}
+.Conscientizacao {
+    display: flex;
+    width: 100vw;
+    height: 262px;
+    background-color: #FF69B4;
+    justify-content: space-around;
+    align-items: center;
+
+    p {
+        width: 50%;
+        font-size: 25px;
+    }
+
+    img {
+        width: 45vh; 
+        height: 30vh;
+    }
+}
+
+.Dicas {
+    display: flex;
+    background-color:#FFD9EC;
+    width: 100vw;
+    height: 426px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer{
+    background-color: #FF69B4;
+    height: 143px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size: 20px;
+    text-align: center; 
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    a {
+        justify-content: space-evenly;
+    }
+}
